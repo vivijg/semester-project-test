@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "AEAA,AAAA,IAAI,CAAC;EACH,UAAU,EDGN,OAAO;ECFX,MAAM,EAAE,CAAC;EACT,KAAK,EDGI,OAAO;ECFhB,WAAW,EDHE,kBAAkB,EAAE,KAAK;CCIvC;;ACLD,AAAA,GAAG,CAAC;EACF,UAAU,EAAE,KAAK;CAClB;;AAED,AAAA,OAAO,CAAC;EACN,UAAU,EFEC,OAAO;CEDnB;;ACND,AAAA,kBAAkB,CAAC;EACjB,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,KAAK;EAClB,YAAY,EAAE,KAAK;CASpB;;AAbD,AAME,kBANgB,CAMhB,QAAQ,CAAC;EACP,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,aAAa,EAAE,IAAI;EACnB,UAAU,EHJH,OAAO;EGKd,KAAK,EAAE,KAAK;CACb;;AAGH,AAAA,YAAY,CAAC;EACX,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,CAAC;CACX;;AAED,AAAA,CAAC,CAAC;EACA,KAAK,EHjBD,OAAO;EGkBX,WAAW,EHtBE,SAAS,EAAE,UAAU;CGuBnC",
+    "sources": [
+        "../scss/style.scss",
+        "../scss/partials/_variables.scss",
+        "../scss/partials/_base.scss",
+        "../scss/partials/_nav.scss",
+        "../scss/partials/_products.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
