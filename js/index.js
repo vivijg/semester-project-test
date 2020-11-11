@@ -13,14 +13,13 @@ const productsUrl = baseUrl + "products";
         const json = await response.json();
         const results = json.data;
 
-        container.innerHTML = "http://localhost:1337/";
+        container.innerHTML = "";
 
         json.forEach(function (product) {
             container.innerHTML += `<div class="product" href="detail.html?id=${product.id}">
                                         <div class="products">
                                         <img class="product-img"src="http://localhost:1337${product.image.url}" />
                                         </div>
-
                                         <div class="info">
                                         <h4>${product.title}</h4>
                                         <p></p>
@@ -43,6 +42,6 @@ const productsUrl = baseUrl + "products";
     }
 
 
-})();
+});
 
-getInfo();
+

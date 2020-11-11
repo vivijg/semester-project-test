@@ -3,4 +3,3 @@ export function displayMessage(messageType, message, target) {
   
     element.innerHTML = `<div class="message ${messageType}">${message}</div>`;
   }
-  
