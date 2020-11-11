@@ -1,0 +1,9 @@
+body {
+  background: getColour(bg);
+  margin: 0;
+  color: getColour(primary);
+  font-family: $font-primary;
+}
+.logo {
+  width: 180px;
+}

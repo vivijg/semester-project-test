@@ -1,14 +1,54 @@
-.product-img {
-  width: 200px;
-  padding: 0;
-  float: right;
-}
-
 p {
   color: getColour(bg);
-  font-family: $font-heading;
+  font-family: $font-primary;
 }
 
 h4 {
   font-family: $font-heading;
+  color: getColour(mustard);
+}
+
+h5 {
+  font-family: $font-heading;
+  color: getColour(bg);
+}
+
+/*PRODUCT PAGE*/
+
+.product {
+  background: getColour(primary);
+  display: flex;
+}
+
+.product-img {
+  background-size: cover;
+  height: auto;
+  width: 400px;
+  padding: 0;
+  margin: 0;
+}
+
+.info {
+  width: 50%;
+  margin: 80px;
+}
+
+@media only screen and (max-width: 768px) {
+  .product {
+    flex-direction: column;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .product-img {
+    width: 100%;
+  }
+
+  .info {
+    margin-top: 8px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
 }
