@@ -1,0 +1,14 @@
+$font-primary: "PT Sans", sans-serif;
+$font-heading: "DM Serif Display", serif;
+
+$colours: (
+  bg: #101819,
+  mustard: #d9b504,
+  primary: #ffffff,
+  secondary: #d0cbbd,
+  sub-headline: #c1a38b,
+);
+
+@function getColour($color) {
+  @return map-get($colours, $color);
+}
