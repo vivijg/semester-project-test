@@ -2,7 +2,69 @@ body {
   background: #101819;
   margin: 0;
   color: #ffffff;
+  font-family: "PT Sans", sans-serif;
+}
+
+.logo {
+  width: 180px;
+}
+
+p {
+  color: #101819;
+  font-family: "PT Sans", sans-serif;
+}
+
+h4 {
   font-family: "DM Serif Display", serif;
+  color: #d9b504;
+}
+
+h5 {
+  font-family: "DM Serif Display", serif;
+  color: #101819;
+}
+
+/*PRODUCT PAGE*/
+.product {
+  background: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product-img {
+  background-size: cover;
+  height: auto;
+  width: 400px;
+  padding: 0;
+  margin: 0;
+}
+
+.info {
+  width: 50%;
+  margin: 80px;
+}
+
+@media only screen and (max-width: 768px) {
+  .product {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .product-img {
+    width: 100%;
+  }
+  .info {
+    margin-top: 8px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
 }
 
 nav {
@@ -11,14 +73,22 @@ nav {
 
 .navbar {
   background: #d0cbbd;
-}
-
-.product-img {
-  width: 200px;
-  padding: 0;
-}
-
-p {
   font-family: "PT Sans", sans-serif;
+}
+
+.cart-btn {
+  background: #ffffff;
+  border: none;
+  -webkit-text-decoration: underline #d9b504;
+          text-decoration: underline #d9b504;
+  font-size: 20px;
+}
+
+.cart-btn:hover {
+  font-weight: 800;
+}
+
+.search {
+  margin-bottom: 20px;
 }
 /*# sourceMappingURL=style.css.map */
