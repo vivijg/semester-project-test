@@ -1,0 +1,14 @@
+.cart-btn {
+  background: getColour(primary);
+  border: none;
+  text-decoration: underline getColour(mustard);
+  font-size: 20px;
+}
+
+.cart-btn:hover {
+  font-weight: 800;
+}
+
+.search {
+  margin-bottom: 20px;
+}
